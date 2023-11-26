@@ -1,5 +1,5 @@
 # Pense-Bem
-O programa
+
 O programa será criado para que o usuário responda as 30 perguntas de cada programa do livro.
 O processo de execução do programa contempla as seguintes regras:
 - Para cada pergunta, o usuário terá 3 tentativas de resposta.
