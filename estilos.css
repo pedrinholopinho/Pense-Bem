@@ -131,10 +131,19 @@ input#botaoD:hover {
 	color: #000000;
 	margin-bottom: 20px;
   }
+  .imagem-container {
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+  }
   
 .imagem{
 	animation: float 3s ease-in-out infinite;
 	border-radius: 5%; /* Define um border-radius de 50% para criar um círculo */
+	max-width: 100%;
+    height: auto;
 }
 @keyframes float {
 0%, 100%{
