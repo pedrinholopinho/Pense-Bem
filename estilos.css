@@ -1,0 +1,146 @@
+body {
+	font-family: 'Arial', sans-serif;
+	background-color: #f2f2f2;
+	margin: 0;
+	padding: 0;
+  }
+  
+  div#conteudo {
+	background-color: #A9A9A9;
+	padding: 20px;
+	text-align: center;
+	width: 70%;
+	max-width: 550px;
+	margin: 20px auto;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  input#contagem {
+	width: 90%;
+	height: 60px;
+	border: 2px ridge #333;
+	border-radius: 15px;
+	font-family: 'Courier New', monospace;
+	font-size: 24pt;
+	font-weight: bold;
+	text-align: center;
+	background-color: #000;
+	color:red;
+	margin-bottom: 15px;
+  }
+  
+  input#tentativa {
+	width: 90%;
+	border-radius: 20px;
+	height: 30px;
+	border: 2px ridge #333;
+	font-family: 'Courier New', monospace;
+	font-size: 12pt;
+	text-align: center;
+	background-color: #000;
+	color: orange;
+	margin-bottom: 20px;
+  }
+  
+  input[type='button'] {
+	width: 45%;
+	height: 80px;
+	border:none;
+	font-size: 20pt;
+	font-weight: bold;
+	color: black;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	border-radius: 10px;
+	margin-bottom: 15px;
+  }
+input#botaoA,
+input#botaoB,
+input#botaoC,
+input#botaoD {
+  /* Estilos comuns aos botões */
+  width: 45%;
+  height: 100px;
+  border: black 3px ridge;
+  font-size: 24pt;
+  color: black;
+  transition: background-color 0.3s ease; /* Transição suave da cor de fundo */
+}
+
+input#botaoA {
+  background-color: red; /* Vermelho */
+}
+
+input#botaoB {
+  background-color: yellow; /* Amarelo */
+}
+
+input#botaoC {
+  background-color: blue; /* Azul */
+}
+
+input#botaoD {
+  background-color: #32CD32; /* Verde */
+}
+
+/* Efeito hover */
+input#botaoA:hover {
+  background-color: #8B0000; /* Nova cor ao passar o mouse */
+}
+
+input#botaoB:hover {
+  background-color: #FFD700; /* Nova cor ao passar o mouse */
+}
+
+input#botaoC:hover {
+  background-color: #64c8ff; /* Nova cor ao passar o mouse */
+}
+
+input#botaoD:hover {
+  background-color: #006400; /* Nova cor ao passar o mouse */
+}
+
+  input#reiniciar {
+	padding: 10px 20px;
+	width: 90%;
+	height: 70px;
+	border: none;
+	background-color:orange;
+	font-size: 14pt;
+	cursor: pointer;
+	border-radius: 20px;
+	border: ridge;
+	transition: all 0.3s ease;
+	outline: none;
+	background-image: url('aaa.png'); /* Adicione a URL da sua imagem */
+	background-size: cover; /* Ajusta o tamanho da imagem */
+	background-repeat: no-repeat; /* Evita repetir a imagem */
+	background-position: left; /* Centraliza a imagem */
+	text-indent: 20px; /* Indenta o texto para dar espaço à imagem */
+
+  }
+
+  input#reiniciar:hover {
+	opacity: 50%;
+	color: black;
+  }
+  
+  h1#titulo {
+	font-family: 'Verdana', sans-serif;
+	color: #000000;
+	margin-bottom: 20px;
+  }
+  
+.imagem{
+	animation: float 3s ease-in-out infinite;
+	border-radius: 5%; /* Define um border-radius de 50% para criar um círculo */
+}
+@keyframes float {
+0%, 100%{
+	transform:translateY(0);}
+	50%{transform: translateY(-1%);
+
+	}
+
+}
